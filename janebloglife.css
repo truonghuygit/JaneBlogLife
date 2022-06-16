@@ -1,0 +1,540 @@
+/* header */
+.header {
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+}
+.header i {
+  padding: 8px 16px;
+  color: white;
+}
+.header i:hover {
+  background: #ccc;
+  color: #000;
+  cursor: pointer;
+}
+
+/* introduce */
+.introduce {
+  padding: 48px 16px;
+  text-align: center;
+}
+.introduce h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 10px 0;
+  color: black;
+  font-family: "Oswald";
+}
+.introduce p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: black;
+  font-weight: bold;
+  font-family: "Oswald";
+}
+.introduce span {
+  color: white;
+  background: black;
+  padding: 0 8px;
+}
+
+/* Jane's fashion blog */
+
+.jane {
+  position: relative;
+}
+.fashion-blog {
+  position: absolute;
+  transform: translate(0, -50%);
+  top: 50%;
+  padding: 12px 24px;
+  color: #fff;
+}
+.fashion-blog button {
+  padding: 12px 24px;
+  background: #fff;
+  color: #000;
+  opacity: 0.6;
+  border: none;
+}
+.fashion-blog button:hover {
+  background: #ccc;
+  opacity: 1;
+}
+
+.fashion-blog h2 {
+  font-size: 36px;
+  margin: 10px 0;
+  letter-spacing: 4px;
+}
+.fashion-blog h1 {
+  margin: 20px 0;
+  font-size: 57px;
+}
+
+/* title-left */
+.title {
+  background: #f1f1f1;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+}
+.title-container {
+  display: flex;
+}
+.title-left {
+  width: 65%;
+}
+.title-1,
+.title-2,
+.title-3 {
+  margin: 16px;
+  margin-bottom: 40px;
+  padding: 12px 24px;
+  background: #fff;
+}
+.title-heading {
+  text-align: center;
+}
+.title-heading h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+.title-heading p {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.title-heading span {
+  opacity: 0.6;
+}
+.title-content img {
+  padding: 16px 0;
+}
+.title-content p {
+  font-size: 15px;
+  text-align: justify;
+}
+.first {
+  margin: 15px 0;
+}
+.title-content .first span {
+  font-weight: bold;
+}
+.second {
+  margin-bottom: 15px;
+}
+.icon button {
+  padding: 8px 16px;
+}
+.icon {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0;
+}
+.fa-thumbs-up {
+  margin-right: 3px;
+}
+.like {
+  border: 1px solid #ccc;
+  background: #fff;
+}
+.replies {
+  color: white;
+  background: #000;
+  border: none;
+}
+.like:hover,
+.replies:hover {
+  background: #ccc;
+  color: #000;
+}
+.replies span {
+  color: black;
+  padding: 0 8px;
+  background: #fff;
+  margin-left: 3px;
+}
+.hr-footer {
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+.title-footer {
+  display: flex;
+  margin-bottom: 16px;
+}
+.title-footer img {
+  width: 90px;
+}
+.title-footer div {
+  margin-left: 40px;
+}
+.george {
+  font-size: 20px;
+  font-weight: 500;
+}
+.May {
+  font-size: 15px;
+  opacity: 0.6;
+}
+.on {
+  margin: 10px 0;
+}
+.under {
+  margin: 15px 0;
+}
+
+/* title-right */
+.title-right {
+  width: 35%;
+}
+.right-1 {
+  margin: 16px;
+}
+.right-1 img {
+  filter: grayscale(75%);
+  width: 100%;
+}
+.right-1 div {
+  padding: 0.15px 16px;
+  background: #000;
+  color: #fff;
+}
+.right-1 div h2 {
+  font-size: 20.236px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+.right-2 {
+  margin: 32px 16px;
+}
+.right-2-heading {
+  padding: 8px 16px;
+  background: #000;
+  color: #fff;
+}
+.right-2-heading h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.right-2-content {
+  display: flex;
+  background: #fff;
+  padding: 16px;
+  border-bottom: 1px solid #ddd;
+}
+.no-border {
+  border: none;
+}
+.right-2-content:hover {
+  background: #ccc;
+}
+.right-2-content img {
+  width: 50px;
+  height: 65.7px;
+  margin-right: 16px;
+}
+.right-2-on {
+  font-size: 18px;
+}
+.right-2-under {
+  font-size: 15px;
+}
+.right-3 {
+  margin: 32px 16px;
+}
+.right-3-advertise {
+  padding: 8px 16px;
+  color: #fff;
+  background: #000;
+}
+.right-3-advertise h2 {
+  font-size: 20px;
+  line-height: 38px;
+}
+.right-3-content {
+  padding: 0.15px 16px;
+  background: #fff;
+}
+.right-3-content div {
+  height: 200px;
+  margin: 16px 0;
+  padding: 0.15px 16px;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-4 {
+  margin: 32px 16px;
+}
+.right-4-heading {
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+}
+.right-4-heading h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.right-4-content {
+  padding: 0.15px 16px;
+  background: #fff;
+  color: #000;
+}
+.right-4-content-span {
+  background: #f1f1f1;
+  padding: 0 8px;
+}
+.right-4-content-container {
+  margin: 15px 0;
+}
+.right-4-content-up,
+.right-4-content-center {
+  margin-bottom: 16px;
+}
+.right-4-content-down {
+  margin-bottom: 31px;
+}
+.fashion {
+  background: #000;
+  color: #fff;
+  font-size: 18px;
+}
+.right-5 {
+  margin: 32px 16px;
+}
+.right-5-heading {
+  padding: 8px 16px;
+  background: #000;
+  color: #fff;
+}
+.right-5-heading h2 {
+  line-height: 35px;
+  font-size: 20px !important;
+}
+.right-5-content {
+  padding: 0 8px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.right-5-content-picture {
+  width: 100%;
+  display: flex;
+}
+.right-5-content-picture img {
+  width: 50%;
+}
+.picture1 {
+  margin: 15px 0;
+}
+.picture2 {
+  margin-bottom: 15px;
+}
+.padding {
+  padding: 0 8px;
+}
+.right-6 {
+  margin: 32px 16px;
+}
+.right-6-heading {
+  background: #000;
+  color: #fff;
+  padding: 8px 16px;
+}
+.right-6-heading h2 {
+  font-size: 20px;
+  line-height: 37px;
+}
+.right-6-content {
+  background: #fff;
+  padding: 8px 16px;
+}
+.hover {
+  font-size: 25px;
+}
+.hover:hover {
+  opacity: 0.4;
+}
+.right-7 {
+  margin: 16px;
+}
+.right-7-heading {
+  padding: 8px 16px;
+  background: #000;
+  color: #fff;
+  font-size: 20px;
+}
+.right-7-heading h2 {
+  line-height: 34px;
+  font-size: 20px;
+}
+.right-7-content {
+  padding: 0.15px 16px;
+  background: #fff;
+}
+.right-7-content p {
+  margin: 15px 0;
+}
+.right-7-content input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* footer */
+.subscribe {
+  width: 100%;
+  background: #f44336;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  margin-bottom: 15px;
+}
+.subscribe:hover {
+  color: #000;
+  background: #ccc;
+}
+.footer {
+  background: #616161;
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
+.to-the-top {
+  padding: 12px 24px;
+  color: #fff;
+  background: #000;
+  border: none;
+}
+.fa-arrow-up {
+  margin-right: 16px;
+}
+.to-the-top:hover {
+  background: #ccc;
+  color: #000;
+}
+
+/* modal */
+.modal {
+  top: 49px;
+}
+.modal-dialog {
+  max-width: 5000px;
+  padding: 0.15px 16px;
+}
+.modal-content {
+  width: 70%;
+  margin: auto;
+  padding: 32px;
+}
+.modal-header {
+  padding: 0;
+  margin: 10px 0;
+  border: none;
+}
+.modal-title {
+  letter-spacing: 3px;
+  font-size: 26px;
+}
+.modal-body {
+  padding: 0;
+}
+.modal-body input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  margin: 15px 0;
+}
+.modal-footer {
+  border: none;
+  padding: 0;
+}
+.btn-secondary {
+  width: 100%;
+  height: 45px;
+  border-radius: 0;
+  background: #f44336;
+  margin: 0px 0px 16px 0px;
+  border: none;
+}
+.btn-secondary:hover {
+  background: #ccc;
+  color: #000;
+}
+.btn-1 {
+  border: none;
+  background: white;
+  padding: 8px 16px;
+  font-weight: 700;
+}
+.btn-primary {
+  background: #fff;
+  color: #000;
+  opacity: 0.6;
+  border-radius: 0;
+}
+.btn-primary:hover {
+  color: #000;
+}
+.btn-primary:focus {
+  background-color: #f44336;
+  border-color: none;
+  box-shadow: none;
+  color: #fff;
+  border: none;
+}
+.subscribe-header:focus {
+  background: #fff;
+  color: #000;
+}
+.subscribe-footer:active {
+  color: #fff;
+  background-color: #f44336;
+}
+.btn-primary:active:focus {
+  box-shadow: none;
+}
+.btn-1:hover {
+  background: #ccc;
+  color: #000;
+}
+.subscribe-footer {
+  padding: 8px 16px;
+  background: #f44336;
+  color: #fff;
+  opacity: 1;
+  border: none;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.subscribe-footer:hover {
+  color: #000;
+  background-color: #ccc;
+}
+/* responsive */
+@media only screen and (max-width: 600px) {
+  .title-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-left,
+  .title-right {
+    width: 100%;
+  }
+  .header {
+    display: none;
+  }
+  .title-footer {
+    display: block;
+  }
+  .title-footer div {
+    margin-left: 0;
+  }
+  .under {
+    margin-bottom: 45px;
+  }
+}
